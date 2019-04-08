@@ -38,14 +38,14 @@ const siteContent = {
 };
 
 // Example: Update the img src for the logo
-let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"])
+const logo = document.getElementById("logo-img");
+logo.setAttribute('src', 'img/logo.png')
 
-let codeSnippet = document.getElementById('cta-img');
-img.setAttribute('src', '' );
+const codeSnippet = document.getElementById('cta-img');
+codeSnippet.setAttribute('src', 'img/header-img.png' );
 
-let middleImg = document.getElementById('middle-img');
-img.setAttribute('src', '' );
+const middleImg = document.getElementById('middle-img');
+middleImg.setAttribute('src', 'img/mid-page-accent.jpg');
 
-let img = document.getElementById('cta-img');
-img.setAttribute('src', '' );
+const ctaimg = document.getElementById('cta-img');
+ctaimg.setAttribute('src', 'img/header-img.png' );
