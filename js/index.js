@@ -49,3 +49,32 @@ middleImg.setAttribute('src', 'img/mid-page-accent.jpg');
 
 const ctaimg = document.getElementById('cta-img');
 ctaimg.setAttribute('src', 'img/header-img.png' );
+
+
+
+let allLinks = document.querySelectorAll('a');
+
+allLinks[0].textContent = 'Services';
+allLinks[0].style.color = 'green';
+allLinks[1].textContent = 'Product';
+allLinks[1].style.color = 'green';
+allLinks[2].textContent = 'Vision';
+allLinks[2].style.color = 'green';
+allLinks[3].textContent = 'Features';
+allLinks[3].style.color = 'green';
+allLinks[4].textContent = 'About';
+allLinks[4].style.color = 'green';
+allLinks[5].textContent = 'Contact';
+allLinks[5].style.color = 'green';
+
+let servicesDesign = document.createElement('p');
+servicesDesign.textContent = "Home";
+
+let onceAgain = document.querySelector('a');
+onceAgain.appendChild(servicesDesign);
+
+let productdesign = document.createElement('p');
+productdesign.textContent = "Design";
+
+let placeholder = document.querySelector('a');
+placeholder.prepend(productdesign);
