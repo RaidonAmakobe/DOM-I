@@ -67,14 +67,9 @@ allLinks[4].style.color = 'green';
 allLinks[5].textContent = 'Contact';
 allLinks[5].style.color = 'green';
 
-let servicesDesign = document.createElement('p');
-servicesDesign.textContent = "Home";
+let awesomeDom = document.querySelector('h1');
+awesomeDom.textContent = "Dom Is Awesome";
 
-let onceAgain = document.querySelector('a');
-onceAgain.appendChild(servicesDesign);
+let button = document.querySelector('button');
+button.textContent = "Get Started";
 
-let productdesign = document.createElement('p');
-productdesign.textContent = "Design";
-
-let placeholder = document.querySelector('a');
-placeholder.prepend(productdesign);
