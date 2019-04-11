@@ -73,3 +73,19 @@ awesomeDom.textContent = "Dom Is Awesome";
 let button = document.querySelector('button');
 button.textContent = "Get Started";
 
+let test = document.querySelectorAll('h4');
+test[0].textContent = "Features";
+test[1].textContent = "About";
+test[2].textContent = "Services";
+test[3].textContent = "Product";
+test[4].textContent = "Vision";
+test[5].textContent = "Contact";
+
+let anothertest = document.querySelectorAll('p');
+anothertest[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+anothertest[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+anothertest[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+anothertest[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+anothertest[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+anothertest[5].textContent = "123 Way 456 Street Somewhere, USA 1 (888) 888-8888 sales@greatidea.io";
+
