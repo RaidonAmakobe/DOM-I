@@ -87,5 +87,8 @@ anothertest[1].textContent = "About content elementum magna eros, ac posuere elv
 anothertest[2].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 anothertest[3].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 anothertest[4].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
-anothertest[5].textContent = "123 Way 456 Street Somewhere, USA 1 (888) 888-8888 sales@greatidea.io";
-
+anothertest[5].textContent = "123 Way 456 Street";
+anothertest[6].textContent = "Somewhere, USA";
+anothertest[7].textContent = "1(888) 888-8888";
+anothertest[8].textContent = "Copyright Great Idea! 2018";
+let contactStyles = document.querySelector(".contact");
